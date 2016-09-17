@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Hello World</title>
+</head>
+<body>
+  <div ng-app="clickCount" ng-controller="countingCtrlr">
+      <h1 ng-click="increment()"> {{ display }} </h1>
+  </div>
+</body>
+<script src="./bower_components/angular/angular.js"></script>
+<script>require('./mainController.js')</script>
+</html>
